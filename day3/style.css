@@ -1,0 +1,18 @@
+body{
+    background-color: teal;
+}
+
+h1{
+    background-color: brown;
+}
+
+.member{
+    background-color: olivedrab;
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+}
+
+img{
+    width: 100%;/*to parent */
+}
