@@ -1,0 +1,38 @@
+/* selectors */
+/* 
+-class
+-id
+-element itself
+ */
+h2
+{
+    color: darkolivegreen;
+}
+
+
+/* class */
+.vip {
+    color: violet;
+    background-color: tan;
+}
+
+.cntr {
+    text-align: center;
+    background-color: olivedrab;
+}
+
+.one {
+    background-color: teal;
+    color: wheat;
+    text-align: center;
+    width: 20%;
+    /* height: 700px; */
+}
+
+.two {
+    background-color: mediumpurple;
+    color: wheat;
+    text-align: center;
+    width: 20%;
+    /* height: 700px; */
+}
