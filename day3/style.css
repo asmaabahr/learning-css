@@ -1,18 +1,22 @@
 body{
-    background-color: teal;
+    /* background-color: teal; */
 }
 
 h1{
-    background-color: brown;
+    text-align: center;
 }
 
 .member{
-    background-color: olivedrab;
     width: 33%;
     text-align: center;
-    display: inline-block;
+    display: inline-block; /*make small spaces(fixed) between elements that make us not make width=33.3333%*/
 }
 
 img{
     width: 100%;/*to parent */
+}
+
+span{
+    color: rgb(0, 162, 255);
+    font-size: 60px;
 }
