@@ -2,21 +2,34 @@ body{
     /* background-color: teal; */
 }
 
-h1{
+h1,.member{/*grouping selector*/
     text-align: center;
 }
 
 .member{
     width: 33%;
-    text-align: center;
+    /* text-align: center; */
     display: inline-block; /*make small spaces(fixed) between elements that make us not make width=33.3333%*/
 }
 
-img{
+.member img{ /*nested selector*/
     width: 100%;/*to parent */
 }
 
 span{
     color: rgb(0, 162, 255);
     font-size: 60px;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 7px;
+    border: none;
+    
+}
+button:hover{
+    background-color: wheat;
+    color: black;
 }
