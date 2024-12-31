@@ -1,0 +1,23 @@
+.test{
+    width: 70%;
+
+    background-color: tan;
+    margin:50px auto; /*grap div into center*/
+    text-align: center;
+    padding: 10px;
+}
+.test img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.test button{
+    padding: 10px 30px;
+    background-color: bisque;
+    border: none;
+    border-radius: 20px;
+}
+.test button:hover{
+    color: aliceblue;
+    background-color: rgb(110, 75, 34);
+}
