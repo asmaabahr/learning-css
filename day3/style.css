@@ -33,3 +33,38 @@ button:hover{
     background-color: wheat;
     color: black;
 }
+
+.border{
+    width: 200px;
+    height: 200px;
+    background-color: tan;
+    /* border-color: rgb(126, 104, 75); */
+    /* border-width: 5px; */
+    /* border-style: double; */
+
+    /* shorthand property*/
+    /* border-top: 6px solid cornflowerblue; */
+    border: 6px solid cornflowerblue;
+    border-radius: 50%;
+}
+img{
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.traiangle{
+    height: 0px;
+    width: 0px;
+    /* background-color: darkcyan; */
+    /* border-top: 50px solid rgb(165, 165, 165); */
+    border-top: 50px solid transparent;/*شفاف*/
+    /* border-left: 50px solid rgb(219, 4, 4); */
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid rgb(30, 236, 30);
+    /* border-right: 50px solid rgb(3, 206, 206); */
+    border-right: 50px solid transparent;
+}
