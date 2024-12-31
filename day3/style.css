@@ -47,7 +47,7 @@ button:hover{
     border: 6px solid cornflowerblue;
     border-radius: 50%;
 }
-img{
+.borderimg{
     width: 200px;
     height: 200px;
     /* border-radius: 50%; */
@@ -67,4 +67,12 @@ img{
     border-bottom: 50px solid rgb(30, 236, 30);
     /* border-right: 50px solid rgb(3, 206, 206); */
     border-right: 50px solid transparent;
+}
+
+.font{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Playwrite AU VIC Guides", serif;
 }
